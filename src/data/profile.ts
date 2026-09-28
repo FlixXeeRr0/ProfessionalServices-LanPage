@@ -270,19 +270,21 @@ export const whatsAppInfo = {
 }
 
 // ADDITIONAL INFO
-export const education: EducationEntry = {
-  id: 'itc',
-  title: 'Ing. en Sistemas Computacionales',
-  specialistSkill: 'Ingeniería de Software',
-  institution: 'Instituto Tecnológico de Culiacán',
-  details: [
-    'Java: aplicaciones de consola, interfaz gráfica y manejo de concurrencia',
-    'Programación web: HTML, CSS, JS y TS',
-    'Bases de datos relacionales: MySQL y SQL Server',
-    'Programación competitiva: análisis y resolución de problemas',
-    'Análisis de requisitos y funcionalidades de sistemas informáticos',
-  ],
-};
+export const education: EducationEntry[] = [
+  {
+    id: 'itc',
+    title: 'Ing. en Sistemas Computacionales',
+    specialistSkill: 'Ingeniería de Software',
+    institution: 'Instituto Tecnológico de Culiacán',
+    details: [
+      'Java: aplicaciones de consola, interfaz gráfica y manejo de concurrencia',
+      'Programación web: HTML, CSS, JS y TS',
+      'Bases de datos relacionales: MySQL y SQL Server',
+      'Programación competitiva: análisis y resolución de problemas',
+      'Análisis de requisitos y funcionalidades de sistemas informáticos',
+    ],
+  }
+];
 
 export const courses: string[] = [
   'Desarrollo web (HTML y CSS) y desarrollo de apps móviles',

@@ -33,7 +33,7 @@ export function About() {
             </div>
             <div className="flex gap-3 items-center">
               <IoSchoolOutline className="text-text/50 shrink-0" size={25} />
-              <span className="text-text/50 text-sm sm:text-base">{education.title}</span>
+              <span className="text-text/50 text-sm sm:text-base">{education[0].title}</span>
             </div>
             <div className="flex gap-3 items-center">
               <CiCalendar className="text-text/50 shrink-0" size={25} />
