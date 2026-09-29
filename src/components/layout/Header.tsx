@@ -78,7 +78,7 @@ export function Header() {
               onClick={() => handleNavigate(item.id)}
               className={`rounded-md px-3 py-3 text-left text-sm transition-colors ${
                 activeId === item.id
-                  ? 'bg-surface-raised text-amber'
+                  ? 'bg-surface-raised text-blue'
                   : 'text-text-muted hover:text-text'
               }`}
             >

@@ -68,7 +68,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="flex justify-center lg:justify-end w-full p-4 sm:p-8 min-w-0">
+        <div className="flex justify-center lg:justify-end w-full sm:pb-4 min-w-0">
           <CodePanel />
         </div>
       </div>

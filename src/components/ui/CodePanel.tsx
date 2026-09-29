@@ -83,7 +83,7 @@ const lines: CodeLine[] = [
 
 export function CodePanel() {
   return (
-    <div className="w-full max-w-full sm:max-w-md rounded-2xl border border-line bg-ink-dark shadow-[-8px_10px_10px_1px_rgba(14,165,233,0.3)] overflow-hidden">
+    <div className="w-full max-w-full sm:max-w-md rounded-2xl border border-line bg-ink-dark shadow-[-8px_10px_10px_1px_rgba(14,165,233,0.2)] overflow-hidden">
       <div className="flex items-center gap-2 bg-slate-800 border-b border-slate-700 px-4 py-3">
         <span className="h-3 w-3 rounded-full bg-red-400" aria-hidden />
         <span className="h-3 w-3 rounded-full bg-amber-300" aria-hidden />
